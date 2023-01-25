@@ -8,7 +8,7 @@ h1{
 .name{
     color: coral;
 }
-section{
+.first-two{
     display: flex;
     margin-bottom: 100px;
 }
@@ -38,4 +38,35 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.third-class{
+    display: flex;
+    margin-bottom: 100px;
+   
+    
+}
+.first-box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    box-shadow: 10px 10px 30px rgb(99, 10, 104);
+    border-left: 7px solid rgb(6, 46, 125);
+}
+.second-box{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    box-shadow: 10px 10px 30px rgb(69, 5, 73);
+    border-left: 7px solid rgb(209, 109, 15);
+    
+}
+footer{
+    text-align: center;
 }
